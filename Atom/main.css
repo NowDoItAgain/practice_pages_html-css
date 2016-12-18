@@ -1,0 +1,74 @@
+body {
+    margin-top: 30px;
+    font-family: monospace;
+    background-color: #EAEEF1;
+}
+
+header {}
+
+
+/*creating space to clear fixed bar*/
+
+.top {
+    margin-top: 110px;
+}
+
+
+/*fixed bar, top of page*/
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #aaaaaa;
+    background-color: #EAEEF1;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+sub {
+    float: right;
+    margin-right: 100px;
+    color: #888888;
+}
+
+section {
+    background-color: #fff;
+    height: 80px;
+    max-width: 700px;
+    margin: 50px auto;
+    border: 2px dashed #aaaaaa;
+    border-radius: 7px;
+    box-shadow: 5px 5px 3px #aaaaaa;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+span {
+    font-size: 1.15em;
+    color: white;
+    background-color: #aaaaaa;
+    border-radius: 7px;
+    padding: 3px 10px 5px 10px;
+    margin-left: 85px;
+}
+
+P {
+    font-size: 1.35em;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 20px;
+    color: #5c5c5b;
+    }
+
+img {
+    display: inline-block;
+    margin-left: 100px;
+    float: left;
+}
