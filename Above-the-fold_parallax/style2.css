@@ -1,0 +1,151 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#original {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  }
+
+#grayscale {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.cover {
+  background-image: url("bg2-min.jpg");
+}
+
+.cover02 {
+  background-image: url("bg-lavfield.png");
+}
+
+.cover03 {
+  background-image: url("bridgewood.jpg");
+}
+
+.cover04 {
+  background-image: url("city-road-street-buildings.jpg");
+}
+
+.cover05 {
+  background-image: url("city.jpeg");
+}
+
+.cover06 {
+  background-image: url("city02.jpeg");
+}
+
+.cover07 {
+  background-image: url("paradise.jpeg");
+}
+
+
+.cover,
+.cover02,
+.cover03,
+.cover04,
+.cover05,
+.cover06,
+.cover07 {
+  display: flex;
+  -webkit-display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 60%;
+  min-height: 400px;
+  background-attachment: scroll;
+  -webkit-background-attachment: scroll;
+  background-position: center;
+  -webkit-background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+}
+
+
+nav {
+  display: flex;
+  -webkit-display: flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(44, 45, 50, 0.66);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.presentation,
+.presentation02,
+.presentation03,
+.presentation04,
+.presentation05,
+.presentation06,
+.presentation07 {
+  padding: 50px;
+  color: #fff;
+  width: 40%;
+  height: 400px;
+  font-size: 2rem;
+}
+
+.presentation {
+  background-color: deepskyblue;
+}
+
+.presentation02 {
+  background-color: #7F804D;
+}
+
+.presentation03 {
+  background-color: #D76F54;
+}
+
+.presentation04 {
+  background-color: deepskyblue;
+}
+
+.presentation05 {
+  background-color: #7F804D;
+}
+
+.presentation06 {
+  background-color: #D76F54;
+}
+
+.presentation07 {
+  background-color: deepskyblue;
+}
+
+span {
+  margin-right: 150px;
+  color:  #fff;
+}
+
+p {
+  font-size: 3rem;
+  color: #fff;
+  opacity: .85;
+}

@@ -1,0 +1,46 @@
+button {
+  display: none;
+}
+
+p {
+  font-size: 4rem;
+}
+
+.cover {
+  background-image: url("bg2-min.jpg");
+}
+
+.presentation,
+.presentation02,
+.presentation03,
+.presentation04,
+.presentation05,
+.presentation06,
+.presentation07 {
+  padding: 50px;
+  color: #fff;
+  height: 300px;
+  font-size: 3rem;
+}
+
+.cover,
+.cover02,
+.cover03,
+.cover04,
+.cover05,
+.cover06,
+.cover07 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: scroll;
+  -webkit-background-attachment: scroll;
+  background-position: auto;
+  -webkit-background-position: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+}
